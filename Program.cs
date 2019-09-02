@@ -49,6 +49,8 @@ namespace Monsterschool
     class Monstercohort
     {
         string subject;
+        DateTime startDate;
+
         public Monstercohort(string subject , )
         { }
     }
