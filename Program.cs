@@ -48,6 +48,9 @@ namespace Monsterschool
     }
     class Monstercohort
     {
+        string subject;
+        public Monstercohort(string subject , )
+        { }
     }
     class Eyes
     {
