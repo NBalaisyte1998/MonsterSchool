@@ -50,9 +50,29 @@ namespace Monsterschool
     {
         string subject;
         DateTime startDate;
+        List<Monsters> Listylist;
 
-        public Monstercohort(string subject , )
-        { }
+        public Monstercohort(string subject, DateTime startDate)
+        {
+            this.subject = subject;
+            this.startDate = startDate;
+            Listylist = new List<Monsters>();
+        }
+        public void addStudent(Monsters monster)
+        {
+            Listylist.Add(monster);
+            Console.WriteLine("Student has been added");
+        }
+
+        public List<Monsters> GetMonsters()
+        {
+            return this.Listylist; 
+        }
+        public void importStudents(Monstercohort monstercohort)
+        {
+
+        }
+            
     }
     class Eyes
     {
